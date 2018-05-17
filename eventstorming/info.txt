@@ -1,0 +1,16 @@
+-Order	
+-Commands  :Create,Process,Remove
+-Events    :Pending,Approved,Rejected 
+-State machine :Create->Pending
+
+you have to capture the commands in order to create events
+
+JPA web,
+
+
+
+	orderId
+	customerName
+	orderStatus
+	prodcutId
+	qty
